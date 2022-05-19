@@ -48,8 +48,8 @@ body {
       .total {
         background-color: #fff;
         padding: .5rem;
-        margin-right: 500px;
-        margin-top: auto;
+        margin-right: 200px;
+        margin-top: 30px;
         border: 20px;
     
       }
@@ -59,7 +59,14 @@ body {
    top: 100px;
    left: 320px;
  }
- .right.btn{
+ 
+ .btn{
    padding: 20px;
+   border: 1px solid;
+   margin-top: 10px;
+   margin-bottom: 100px;
+   margin-right: 200px;
+   margin-left: 0px;
+   
  }
      

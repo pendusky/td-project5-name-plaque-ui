@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: rgb(52, 50, 53);
+}
+.content {
+    top: 20%;
+    left: 20%;
+    position: absolute;
+}
+.writeUp {
+    color: #fff;
+    line-height: 2.5rem;
+    font-family: monospace;
+    font-weight: 900;
+}
+.noah {
+    border: 20px solid rgb(236, 75, 164);
+    margin-top: 10px;
+    margin-bottom: 300px;
+    margin-right: 300px;
+    margin-left: 0px;
+    background-color: rgb(241, 252, 252);
+    font-weight: 500;
+  }
+  .btn{
+    background-color: #4cafaf;
+    color: white;
+    padding: 15px 15px;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 0%;
+    margin-right: 500px;
+  }
+
+.text {
+    color: #fff;
+    background-color: rgb(52, 50, 53);
+     border: solid #fff;
+     margin-top: 1rem;
+     padding: 1rem 8rem 1rem 1rem;
+}
+
+
+      .total {
+        background-color: #fff;
+        padding: .5rem;
+        margin-right: 500px;
+        margin-top: auto;
+        border: 20px;
+    
+      }
+
+ .right{
+   position: absolute;
+   top: 100px;
+   left: 320px;
+ }
+ .right.btn{
+   padding: 20px;
+ }
+     

@@ -6,24 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="buy_now.js"></script>
+    <script src="buy_now2.js"></script>
 </head>
 <body>
  <div class="content">
     <div class="writeUp">
         <h1>Name Plaque Application</h1>
             <p>Add any name of your choice and we will show you how much it cost. (Each letter is $5)</p>
-            <input type="text" class="text-area" placeholder="Enter a guess:" required>
+            <input type="text" id="guessfield" class="text-area" placeholder="Enter a guess:" required>
     </div>
        <div class="noah"> 
             <h2>
-                NOAH OLATOYE
+                Your Name
             </h2>
        </div>
     
        <div class="right">
-        <h4 class="total">Total $50</h4>
-        <button class="btn" type="submit">Buy Now</button>
+        <h4 class="total">Total <span id="plaqueprice"> $0</span></h4>
+        
+        <button class="btn" type="submit">Buy Now </button>
     </div>
+    <button class="btn-refresh" type="reset">Refresh</button>
 
  </div>
 </body>

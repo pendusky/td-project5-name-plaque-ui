@@ -1,72 +1,66 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
 }
 body {
-    background-color: rgb(52, 50, 53);
+	background-color: rgb(52, 50, 53);
 }
 .content {
-    top: 20%;
-    left: 20%;
-    position: absolute;
+	top: 20%;
+	left: 20%;
+	position: absolute;
 }
 .writeUp {
-    color: #fff;
-    line-height: 2.5rem;
-    font-family: monospace;
-    font-weight: 900;
+	color: #fff;
+	line-height: 2.5rem;
+	font-family: monospace;
+	font-weight: 900;
 }
 .noah {
-    border: 20px solid rgb(236, 75, 164);
-    margin-top: 10px;
-    margin-bottom: 300px;
-    margin-right: 300px;
-    margin-left: 0px;
-    background-color: rgb(241, 252, 252);
-    font-weight: 500;
-  }
-  .btn{
-    background-color: #4cafaf;
-    color: white;
-    padding: 15px 15px;
-    text-align: left;
-    font-size: 20px;
-    margin-left: 0%;
-    margin-right: 500px;
-  }
-
+	border: 20px solid rgb(236, 75, 164);
+	margin-top: 10px;
+	margin-bottom: 300px;
+	margin-right: 300px;
+	margin-left: 0px;
+	background-color: rgb(241, 252, 252);
+	font-weight: 500;
+}
+.btn{
+	background-color: #4cafaf;
+	color: white;
+	padding: 15px 15px;
+	text-align: left;
+	font-size: 20px;
+	margin-left: 0%;
+	margin-right: 500px;
+}
 .text {
-    color: #fff;
-    background-color: rgb(52, 50, 53);
-     border: solid #fff;
-     margin-top: 1rem;
-     padding: 1rem 8rem 1rem 1rem;
+	color: #fff;
+	background-color: rgb(52, 50, 53);
+	border: solid #fff;
+	margin-top: 1rem;
+	padding: 1rem 8rem 3rem 1rem;
+}
+.total {
+	background-color: #fff;
+	padding: .5rem;
+	margin:30px 60px 5px 6px;
+	border: 20px;
+}
+.right{
+	position: absolute;
+	top: 100px;
+	left: 320px;
+}
+.btn{
+	padding: .5rem;
+	border: 1px solid;
+	margin: 30px 60px 5px 6px;
 }
 
-
-      .total {
-        background-color: #fff;
-        padding: .5rem;
-        margin-right: 200px;
-        margin-top: 30px;
-        border: 20px;
-    
-      }
-
- .right{
-   position: absolute;
-   top: 100px;
-   left: 320px;
- }
- 
- .btn{
-   padding: 20px;
-   border: 1px solid;
-   margin-top: 10px;
-   margin-bottom: 100px;
-   margin-right: 200px;
-   margin-left: 0px;
-   
- }
-     
+.btn-refresh:active {
+    background-color: rgb(5, 53, 61);
+    box-shadow: 0 5px rgb(102, 194, 255);
+    transform: translateY(10px);
+}
